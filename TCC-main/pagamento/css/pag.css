@@ -1,0 +1,71 @@
+/*cabeçalho*/
+header {
+    display: flex;
+    overflow: auto;
+    height: 85px;
+    background-color: #F4B72D;
+    color: white;
+}
+
+.menu {
+    list-style: none;
+    float:inline-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu-logo {
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.menu-title {
+    align-items:baseline;
+    padding: 10px;
+}
+
+.menu-item {
+    top: 8px;
+    right: 10px;
+    padding: 15px;
+    position: absolute;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-rows: 70px;
+    padding-top: 25px;
+    position: relative;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.wrapperContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 208, 0, 0.329);
+    border-radius: 8px;
+    width: 85%;
+    height: 100px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.formapag {
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 208, 0, 0.603);
+    border-radius: 8px;
+    width: 80%;
+    height: 50px;
+    align-items: center;
+}
