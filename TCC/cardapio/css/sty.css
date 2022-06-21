@@ -1,5 +1,6 @@
 body {
-    font-family: verdana;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
 }
 
 .site {
@@ -44,7 +45,7 @@ header {
 
 .menu-item {
     top: 1px;
-    right: 10px;
+    right: -5px;
     padding: 15px;
     position: absolute;
 }
@@ -53,12 +54,13 @@ header {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 /*cardapio/menu*/
 .mainContainer {
     display: flex;
-    width: 100%;
+    width: 90%;
     align-items: center;
     justify-content: center;
     justify-items: center;
@@ -71,7 +73,7 @@ header {
     background-color: rgba(255, 208, 0, 0.329);
     border-radius: 8px;
     width: 90%;
-    height: 80px;
+    height: 75px;
     align-items: center;
     justify-content: flex-start;
 }
@@ -83,15 +85,15 @@ header {
     align-items: center ;
     font-size: larger;
     line-height: 2px;
-    padding-left: 15%;
+    padding-left: 13%;
     line-height: 2px;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
 }
 
 .standardImg {
-    margin: 8px;
-    width: 46%;
-    height: 100%;
+
+    width: 30%;
+    height: 90%;
 }
 
 .standardImg img {
@@ -131,10 +133,10 @@ header {
 }
 
 .zindex {
-    position: relative;
+    position: absolute;
     z-index: 1;
-    padding-left: 10.8% !important;
-    padding-top: 17.8%;
+    padding-left: 65.8% !important;
+    padding-top: 15.8%;
 }
 
 
@@ -160,7 +162,7 @@ button {
     background-color: #F4B72D;
     color: white;
     right: 100%;
-    font-size: larger;
+    font-size: 80%;
     border: 0;
     border-radius: 8px;
     font-weight: bold;
@@ -172,14 +174,14 @@ button {
 }
 
 /*botões inferiores*/
-.btn-row {
+.btn2-row {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
     align-content: center;
-    padding-top: 100%;
+    padding-top: 8%;
 }
 
 .row-item {
@@ -189,12 +191,20 @@ button {
     height: 50px;
 }
 
-.btn-end {
+.btn2-end {
     background-color: #A028D8;
-    width: auto;
+    width: 100px;
     height: 35px;
     border-bottom: 2px black solid ;
     box-shadow: 0 0 10px grey ;
+    border-radius: 8px;
+}
+
+.rowImg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 /*rodapé*/
