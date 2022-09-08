@@ -1,5 +1,0 @@
-INSERT INTO produtos (nomeProduto, descricao, preco, estoque, categoria) VALUES
-('WHOPPER® Furioso', 'Hamburguer furioso', 22.90, 200, 'hamburguer'),
-('Coca-cola', 'Coca-cola zero latinha', 5.00 , 200, 'bebida'),
-('batata-frita', 'batata média frita na hora',  12.00, 150, 'petisco'),
-('sorvete', 'sorvete casquinha', 2.00, 150, 'sobremesa');
