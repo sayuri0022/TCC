@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-widht, initial-scale=1.0">
+
+        <!--CSS EXTERNO-->
+        <link rel="stylesheet" href="comum.css">
+
+        <link rel="icon" type="image/png" href="img/hamburguer.png"/>
+        <title>Food & Grill</title>
+       
+        
+    </head>
+    
+    <body class="site">
+        
+        <!--cabeçalho-->
+    <header > 
+        <!--menu-->
+        <nav class="menu">
+          <li class="menu-logo"> <a href="../TCC/HTML/index.html"> <img src="IMG/Logo.png" width="60px"> </a></li> 
+          <li class="menu-title"> <a href="../estoque/index.html"> <h4>Estoque</h4> </a> </li>
+          <li class="menu-title"> <a href="../PedidosFuncionarios/index.html"> <h4>Pedidos</h4> </a> </li> </a> </li>
+          <li class="menu-sair"> <a href="../LogFun/logfun.html"> <h4>sair</h4> </a> </li>
+        </nav>
+      </div>
+    </header>
+
+    <!-- conteúdo do site-->
+    <article class="site-content">
+
+        <div class="out">
+            <div class="mainContainer">
+                <div class="columns">
+                    <div class="col">
+                        <br>
+                        <h4>PEDIDO</h4>
+                        <h4>MESA 01</h4>
+                        <br><br>
+                        <div class="row">
+                            <h7>Pedido feito?</h7> 
+                            <input type="checkbox">
+                            <img src="https://img.icons8.com/small/16/40C057/ok--v1.png"/>
+                        </div>
+                    </div>
+                    <div class="col1">
+                        <div class="row2">
+                            <img src="img/hamburguer.png" id="img">
+                            <h5>Hambuguer mexicano (2)  25.99</h5>
+                        </div>
+                        <h3>TOTAL: 25.99</h3>
+                        <div class="row3">
+                            
+                            <img src="https://img.icons8.com/small/16/null/clock.png" id="img2"/>
+ 
+                        <i class="fa-regular fa-alarm-clock"></i>
+                     
+                         
+                            <p>Há 4 minutos</p>
+                            <img src="https://img.icons8.com/material-outlined/24/null/money-box--v1.png"/>
+                            <P>Forma de pagamento:</P>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div> 
+     </div> 
+     
+     <div class="out">
+        <div class="mainContainer">
+            <div class="columns">
+                <div class="col">
+                    <br>
+                    <h4>PEDIDO</h4>
+                    <h4>MESA 02</h4>
+                    <br><br>
+                    <div class="row">
+                        <h7>Pedido feito?</h7> 
+                        <input type="checkbox">
+                    </div>
+                </div>
+                <div class="col1">
+                    <div class="row2">
+                        <img src="img/hamburguer.png" id="img">
+                        <H6>Hambuguer mexicano (2)  25.99</H6>
+                    </div>
+                    <h3>TOTAL: 25.99</h3>
+                </div>
+            </div>
+        </div> 
+ </div>  
+
+
+
+ <div class="out">
+    <div class="mainContainer">
+        <div class="columns">
+            <div class="col">
+                <br>
+                <h4>PEDIDO</h4>
+                <h4>MESA 03</h4>
+                <br><br>
+                <div class="row2">
+                    <h7>Pedido feito?</h7> 
+                    <input type="checkbox">
+                </div>
+            </div>
+            <div class="col1">
+                <div class="row2">
+                    <img src="img/hamburguer.png" id="img">
+                    <H5>Hambuguer mexicano (2)  25.99</H5>
+                </div>
+                <h3>TOTAL: 25.99</h3>
+            </div>
+        </div>
+    </div> 
+</div>  
+
+   
+
+    </article>
+
+        <!--JS EXTERNO-->
+        <script type="text/javascript" src="JS/script.js"></script>
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: verdana;
+}
+
+.site {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/*cabeçalho*/
+header {
+  display: flex;
+  height: 70px;
+  background-color: #F4B72D;
+  color: white;
+  overflow: hidden;
+  width: 100%;
+}
+
+.menu {
+  list-style: none;
+  float:inline-start; 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 5px 10px;
+}
+
+.menu li a{
+  color: white;
+  text-decoration: none;
+
+}
+
+.menu-title {
+  padding-left: 20px;
+  font-size: large;
+}
+
+.menu-sair {
+  padding-left: 155vh;
+  font-size: large;
+}
+
+.site-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.out {
+  padding-top: 3.5%;
+  width: 45%!important;
+  height: 26vh !important;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  width: 100% !important;
+  height: 26vh !important;
+  box-shadow: 10px 5px 5px rgba(128, 128, 128, 0.483);
+  border: #9797973b 0.2px solid;
+}
+
+.mainContainer h5 {
+  padding-top: 10%;
+}
+.columns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 85%;
+}
+
+.img {
+  width: 100% !important;
+}
+
+/*configurando scroll*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 30px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 30px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #C4C4C4;
+  height: 30px;
+  border-radius: 5px;
+}
+
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  width: 35% !important;
+  height: 22vh !important;
+}
+
+.col1 {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: flex-start;
+  width: 65% !important;
+  height: 26vh!important;
+  overflow-y:scroll;
+}
+
+.col1 H6 {
+  line-height: -5px;
+}
+
+.col h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  padding-left: 5%;
+  line-height: 0.5%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#img {
+  width: 60%;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+  width: 100% !important;
+}
+
+.row3 {
+    display: flex;
+    flex-direction: row;
+    width: 100% !important;
+  }
+  
+#img2{
+    width: 40px !important;
+    height: 40px!important;
+}
+
+
